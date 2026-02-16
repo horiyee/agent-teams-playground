@@ -9,3 +9,7 @@ uv/venv:
 .PHONY: uv/sync
 uv/sync:
 	uv sync
+
+.PHONY: run
+run:
+	uv run app
