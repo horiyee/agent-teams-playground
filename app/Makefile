@@ -13,3 +13,11 @@ uv/sync:
 .PHONY: run
 run:
 	uv run app
+
+.PHONY: collect
+collect:
+	uv run collect $(REPOS)
+
+.PHONY: classify
+classify:
+	uv run classify

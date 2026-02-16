@@ -1,2 +1,3 @@
 .sesskey
 .env.development.local
+data/optimized_model.json
